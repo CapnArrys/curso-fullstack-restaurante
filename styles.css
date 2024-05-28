@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+nav ul li .nav:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    align-self: center;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#slogan {
+
+    max-width: 80%;
+    max-height: 80%;
+    height: 80px;
+    
+    
+}
+
+.social {
+    
+    height: 50px
+}
+
+#redes {
+    margin-top: 50px;
+}
+
+#chatwhatsapp {
+    margin-top: 40px;
+}
